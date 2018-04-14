@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+ 
+    font-family: 'Raleway', sans-serif;
+
+    line-height: 2.5em;
+
+    font-weight: 900;
+
+    background-image: url('../images/sun-pattern.png');
+}
+
+.our-content {
+    font-family: 'Raleway', sans-serif;
+
+    line-height: 2.5em;
+
+    font-weight: 900;
+
+    max-width: 600px;
+    margin: auto;
+
+    padding-top: 71px;
+    padding-bottom: 80px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: orange;
+}
+
+#cta {
+    max-width: 350px;
+    margin: auto;
+}
+
+button:hover {
+    background-color: orange;
+}
